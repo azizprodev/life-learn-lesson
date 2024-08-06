@@ -1,0 +1,19 @@
+{% extends 'lessons/base.html' %}
+{% block content %}
+<h2>All Lessons</h2>
+<div class="row">
+    {% for lesson in lessons %}
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="d-flex justify-content-center mt-3">
+                    <img class="card-img-top rounded-circle" src="{{ lesson.image.url }}" alt="{{ lesson.name }}" style="width: 150px; height: 150px;">
+                </div>
+                <div class="card-body text-center">
+                    <h5 class="card-title">{{ lesson.name }}</h5>
+                    <p class="card-text">{{ lesson.description }}</p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}
