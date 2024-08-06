@@ -9,7 +9,7 @@ The application features user-specific data management and public display of les
 - **Manage Lessons:** Users can view, edit, or delete their added lessons.
 - **Public Display:** The home page displays all life lessons and quotes, visible to all visitors, whether logged in or not.
 - **Private Data Management:** Only logged-in users can add, edit, or delete their lessons.
-- 
+  
 ## Installation
 - To get started with the LifeLearnLesson project, follow these steps:
 
