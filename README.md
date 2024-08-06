@@ -19,7 +19,7 @@ The application features user-specific data management and public display of les
 - Django (>= 4.0)
 
 ## Clone the Repository
-- git clone https://github.com/azizprodev/lifelearnlesson.git
+- git clone https://github.com/azizprodev/life-learn-lesson.git
 - cd lifelearnlesson
 
 ## Set Up a Virtual Environment
